@@ -1,0 +1,12 @@
+# Lines starting with `#` are comments.
+
+# Ignore files called 'file.ext'
+index_v1.html
+style_v1.css
+style2_mq.css
+P3_01_Liens.txt
+
+# Ignoring directories
+# Both the directory itself and its contents will be ignored.
+old/
+css/old
