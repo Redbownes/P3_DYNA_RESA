@@ -1,4 +1,13 @@
-$color-primary: blue;
 body{
-    color: $color-primary;
+    background-color: white;
+}
+
+header, footer{
+    background-color: #579c87;
+    align-content: center;
+    font-family: Nunito, sans-serif;
+}
+
+article{
+    display: flex;
 }
