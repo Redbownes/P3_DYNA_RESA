@@ -3,6 +3,7 @@ body {
 }
 
 header, footer {
+  display: flex;
   background-color: #579c87;
   align-content: center;
   font-family: Nunito, sans-serif;

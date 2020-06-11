@@ -1,9 +1,12 @@
+$color-bg: #579c87;
+
 body{
     background-color: white;
 }
 
 header, footer{
-    background-color: #579c87;
+    display: flex;
+    background-color: $color-bg;
     align-content: center;
     font-family: Nunito, sans-serif;
 }
