@@ -4,4 +4,4 @@ Création d'un site de réservation de restaurant intégrant plusieurs pages, un
 
 Exercice d'introduction au SCSS pour une meilleure gestion du design d'un site internet, aux animations css et à la mise en place du système BEM. 
 
-Lien du site > [url=https://redbownes.github.io/P3_DYNA_RESA/]Here[/url]
+Lien du site > <a href=https://redbownes.github.io/P3_DYNA_RESA/>Here</a>
