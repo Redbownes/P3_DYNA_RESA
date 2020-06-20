@@ -1,16 +1,52 @@
+// IMPORT FONTS DOSSIER
+
+@font-face {
+        font-family: "Devonshire";
+        src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
+       }
+@font-face {
+        font-family: "Devonshire";
+        src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
+       }
+
+// DETAILS FONTS
+
+        /*
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Devonshire', cursive;
+        font-family: 'Itim', cursive;
+        font-family: 'Kurale', serif;
+        font-family: 'Source Serif Pro', serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kaushan Script', cursive;
+        font-family: 'Kalam', cursive;
+        */
+
 /* INDEX
         HEADER / FOOTER */
 
+$font_size_title: 2em;
+$font_link_footer: 'Nunito', sans-serif;
 
 /* PAGE MENU */
     
 
     /* MENU NOTE ENCHANTEE */
 
+    $font_title_enchantee: 'Devonshire', cursive;
+    $font_menu_enchantee: 'Itim', cursive;
+
     /* MENU CHIC FRANCAISE */
+
+    $font_title_francaise: 'Kurale', serif;
+    $font_menu_francaise: 'Source Serif Pro', serif;
 
     /* MENU DELICE PAPILLES */
 
+    $font_title_papilles: 'Dancing Script', cursive;
+    $font_menu_papilles: 'PeacerfulDay';
+
     /* MENU PALETTE GOUT */
-    
-/* MENTIONS LEGALES */
+
+    $font_title_gout: 'Kaushan Script', cursive;
+    $font_menu_gout: 'PeacerfulDay';

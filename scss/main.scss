@@ -1,16 +1,21 @@
-$color-bg: #579c87;
+// BASE
 
-body{
-    background-color: white;
-}
+@import "base/_variables.scss";
+@import "base/_typography.scss";
 
-header, footer{
-    display: flex;
-    background-color: $color-bg;
-    align-content: center;
-    font-family: Nunito, sans-serif;
-}
+// LAYOUT
 
-article{
-    display: flex;
-}
+@import "layout/_header.scss";
+@import "layout/_container.scss";
+@import "layout/_footer.scss";
+
+// COMPONENTS
+
+@import "components/_card_menu.scss";
+
+// PAGES
+
+@import "pages/_accueil.scss";
+@import "pages/_mentions_legales.scss";
+@import "pages/_page_menu.scss";
+

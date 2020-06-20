@@ -1,27 +1,46 @@
 /* COLOR */
 
-/* INDEX
+/* INDEX */
 
-    HEADER / FOOTER */
+    /* PAGE MENU */
 
-    $color-bg: #579c87;
-    $color-titlesite: #fcca46;
+    $color-titlepage: #353535;
 
-    
+        /* HEADER / FOOTER */
 
-/* PAGE MENU */
+        $color-bg: #579c87;
+        $color-titlesite: #fcca46;
 
-$color-titlepage: #353535;
+        /* MENU NOTE ENCHANTEE */
 
-    /* MENU NOTE ENCHANTEE */
+        $color-bg-menu1: #fcdfdb;
+        $color-title-menu1: #3d1319;
 
+        /* MENU CHIC FRANCAISE */
 
+        $color-bg-menu2: #fff5fe;
+        $color-title-menu2: #c77412;
+        $color-entree:  #c67412;
+        $color-plat: #a56799;
+        $color-dessert: #6e4ccc;
 
-    /* MENU CHIC FRANCAISE */
+        /* MENU DELICE PAPILLES */
 
-    /* MENU DELICE PAPILLES */
+        $color-bg-menu3: #edefef;
+        $color-title-menu3: #0887fb;
+        $color-deco1: #0228dd;
+        $color-deco2: #0670f3;
+        $color-deco3: #229df9;
 
-    /* MENU PALETTE GOUT */
+        /* MENU PALETTE GOUT */
 
-/* MENTIONS LEGALES */
+        $color-bg-menu4: #fdfffd;
+        $color-title-menu4: #72bf56; 
 
+$font_size_title: 2em;
+
+/* BREAKPOINTS */
+
+$breakpoint_desktop: 1280px;
+$breakpoint_tablets: 700px;
+$breakpoint_mobiles: 500px;

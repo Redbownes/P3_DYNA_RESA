@@ -1,0 +1,74 @@
+/* GLOBAL */
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    height: 95%;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: transparent;
+
+
+    /* MENUS */
+
+    /* MENU 01 */
+
+    &__title--01 {
+        margin-top: 0;
+        font-size: 2.4em;
+        font-weight: 400;
+        font-family: $font_title_enchantee;
+        color: $color-title-menu1;
+    }
+    
+    &__subtitle--01 {
+        font-weight: 400;
+        font-style: italic;
+        font-family: $font_menu_enchantee;
+        color: $color-title-menu1;
+    }
+
+    /* MENU 02 */
+
+    &__title--02 {
+        font-size: $font_size_title;
+        font-family: $font_title_francaise;
+    }
+
+    &__subtitle--02 {
+        font-family: $font_menu_francaise;
+        color: $color-title-menu2;
+    }
+
+    /* MENU 03 */  
+    
+    &__title--03 {
+        font-size: $font_size_title;
+        font-family: $font_title_papilles;
+        padding-left: 5px;
+    }
+
+    &__subtitle--03 {
+        font-family: $font_menu_papilles;
+        color: $color-title-menu3;
+        font-style: italic;
+    }
+
+    /* MENU 04 */
+
+    &__title--04 {
+        font-size: $font_size_title;
+        font-family: $font_title_gout;
+        font-weight: 500;
+    }
+
+    &__subtitle--04 {
+        font-family: $font_menu_gout;
+        color: $color-title-menu4;
+        font-style: italic;
+    }
+}

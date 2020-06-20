@@ -1,16 +1,128 @@
-body {
-  background-color: white;
+/* COLOR */
+/* INDEX */
+/* PAGE MENU */
+/* HEADER / FOOTER */
+/* MENU NOTE ENCHANTEE */
+/* MENU CHIC FRANCAISE */
+/* MENU DELICE PAPILLES */
+/* MENU PALETTE GOUT */
+/* BREAKPOINTS */
+@font-face {
+  font-family: "Devonshire";
+  src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
 }
-
-header, footer {
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Devonshire', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Kurale', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Kalam', cursive;
+*/
+/* INDEX
+        HEADER / FOOTER */
+/* PAGE MENU */
+/* MENU NOTE ENCHANTEE */
+/* MENU CHIC FRANCAISE */
+/* MENU DELICE PAPILLES */
+/* MENU PALETTE GOUT */
+header {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #579c87;
-  align-content: center;
-  font-family: Nunito, sans-serif;
+  height: 90px;
 }
 
 article {
+  margin: 20px 30px;
+  min-height: 65%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-gap: 1rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #579c87;
+  height: 8%;
+}
+
+/* GLOBAL */
+.menus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+  height: 95%;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+/* MENUS */
+/* MENU 01 */
+.menus__title--01 {
+  margin-top: 0;
+  font-size: 2.4em;
+  font-weight: 400;
+  font-family: "Devonshire", cursive;
+  color: #3d1319;
+}
+
+.menus__subtitle--01 {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Itim", cursive;
+  color: #3d1319;
+}
+
+/* MENU 02 */
+.menus__title--02 {
+  font-size: 2em;
+  font-family: "Kurale", serif;
+}
+
+.menus__subtitle--02 {
+  font-family: "Source Serif Pro", serif;
+  color: #c77412;
+}
+
+/* MENU 03 */
+.menus__title--03 {
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+  padding-left: 5px;
+}
+
+.menus__subtitle--03 {
+  font-family: "PeacerfulDay";
+  color: #0887fb;
+  font-style: italic;
+}
+
+/* MENU 04 */
+.menus__title--04 {
+  font-size: 2em;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 500;
+}
+
+.menus__subtitle--04 {
+  font-family: "PeacerfulDay";
+  color: #72bf56;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */
