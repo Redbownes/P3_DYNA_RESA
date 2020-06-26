@@ -7,11 +7,15 @@
 /* MENU DELICE PAPILLES */
 /* MENU PALETTE GOUT */
 /* BREAKPOINTS */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Devonshire&family=Itim&family=Kalam&family=Kaushan+Script&family=Kurale&family=Nunito&family=Nunito+Sans:wght@800&family=Source+Serif+Pro&display=swap");
 @font-face {
-  font-family: "Devonshire";
-  src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
+  font-family: "PeacerfulDay";
+  src: url(../asset/police/PeacerfulDay.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 /*
+font-family: 'Nunito Sans', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Devonshire', cursive;
 font-family: 'Itim', cursive;
@@ -21,27 +25,24 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Kalam', cursive;
 */
-/* INDEX
-        HEADER / FOOTER */
-/* PAGE MENU */
-/* MENU NOTE ENCHANTEE */
-/* MENU CHIC FRANCAISE */
-/* MENU DELICE PAPILLES */
-/* MENU PALETTE GOUT */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #579c87;
   height: 90px;
 }
-
-article {
-  margin: 20px 30px;
-  min-height: 65%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  grid-gap: 1rem;
+header h1 {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+header .header__link {
+  text-decoration: none;
+  font-stretch: 50%;
+  font-size: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fcca46;
 }
 
 footer {
@@ -56,73 +57,125 @@ footer {
   background-color: #579c87;
   height: 8%;
 }
+footer div {
+  padding: 0 30px;
+}
+footer div .footer__link {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #fcca46;
+}
 
 /* GLOBAL */
 .menus {
+  margin: 160px auto 200px;
+  min-height: 65%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8% 10%;
+  max-width: 800px;
+}
+.menus__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 500px;
-  height: 95%;
-  padding: 15px;
+  min-height: 200px;
+  height: 450px;
+  padding: 30px;
   border-radius: 3px;
   background-color: transparent;
+  text-decoration: none;
+  /* MENU 1 */
+  /* MENU 02 */
+  /* MENU 03 */
+  /* MENU 04 */
 }
-
-/* MENUS */
-/* MENU 01 */
-.menus__title--01 {
+.menus__item--1 {
+  background-color: #fcdfdb;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.12), 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.menus__item--1 .menus__title {
   margin-top: 0;
-  font-size: 2.4em;
+  font-size: 32px;
   font-weight: 400;
   font-family: "Devonshire", cursive;
   color: #3d1319;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
-
-.menus__subtitle--01 {
+.menus__item--1 .menus__subtitle {
   font-weight: 400;
+  font-size: 45px;
   font-style: italic;
   font-family: "Itim", cursive;
   color: #3d1319;
+  margin: 0;
 }
-
-/* MENU 02 */
-.menus__title--02 {
-  font-size: 2em;
+.menus__item--2 {
+  background-color: #fff5fe;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.12), 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.menus__item--2 .menus__title {
+  font-size: 25px;
   font-family: "Kurale", serif;
+  margin-top: 0;
+  background-image: -webkit-linear-gradient(left, #e38a12, #7735fe);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-
-.menus__subtitle--02 {
+.menus__item--2 .menus__subtitle {
+  font-weight: 700;
+  font-size: 45px;
   font-family: "Source Serif Pro", serif;
   color: #c77412;
+  margin: 0;
 }
-
-/* MENU 03 */
-.menus__title--03 {
-  font-size: 2em;
+.menus__item--3 {
+  background-color: #edefef;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.12), 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.menus__item--3 .menus__title {
+  font-size: 32px;
   font-family: "Dancing Script", cursive;
   padding-left: 5px;
+  margin-top: 0;
+  background-image: -webkit-linear-gradient(left, #1f3cdd, #0889fb);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-
-.menus__subtitle--03 {
+.menus__item--3 .menus__subtitle {
+  font-size: 45px;
   font-family: "PeacerfulDay";
   color: #0887fb;
   font-style: italic;
+  margin: 0;
 }
-
-/* MENU 04 */
-.menus__title--04 {
-  font-size: 2em;
+.menus__item--4 {
+  background-color: #fdfffd;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.12), 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.menus__item--4 .menus__title {
+  font-size: 32px;
   font-family: "Kaushan Script", cursive;
   font-weight: 500;
+  margin-top: 0;
+  background-image: -webkit-linear-gradient(left, #3e923a, #beff7f);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-
-.menus__subtitle--04 {
+.menus__item--4 .menus__subtitle {
   font-family: "PeacerfulDay";
   color: #72bf56;
   font-style: italic;
+  font-size: 45px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

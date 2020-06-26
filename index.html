@@ -9,42 +9,67 @@
         <title>Ohmyfood!</title>
     </head>
 
-<body>
+    <body>
+        <!-- HEADER -->
         <header>
-            <h1><a href="index.html" class="accueil">ohmyfood</a></h1>
+            <h1><a href="index.html" class="header__link">ohmyfood</a></h1>
         </header>
-        <section class="menus">
-            <article class="menu01">
-                <a href="note_enchantee.html">
-                    <i class="icons"></i>
-                    <h2 class="menus__title menus__title--01">La note enchantée</h2>
-                    <p class="menus__subtitle menus__subtitle--01">Menu</p>
-                </a>  
-            </article>
-            <article class="menu02">
-                <a href="chic_francaise.html">                
-                    <h2 class="menus__title menus__title--02">Le chic à la française</h2>
-                    <p class="menus__subtitle menus__subtitle--02">Menu</p>
-                </a>
-            </article>
-            <article class="menu03">
-                <a href="delice_papilles.html">
-                    <h2 class="menus__title menus__title--03">Le délice des papilles</h2>
-                    <p class="menus__subtitle menus__subtitle--03">Menu</p>
-                </a>
-            </article>
-            <article class="menu04">
-                <a href="palette_gout.html">
-                    <h2 class="menus__title menus__title--04">La palette du goût</h2>
-                    <p class="menus__subtitle menus__subtitle--04">Menu</p>
-                </a>
-            </article>        
+
+        <!-- GLOBAL -->
+        <main class="menus">
+            <!-- LISTE MENUS -->
+                <!-- MENU 01 -->
+            <a href="note_enchantee.html" class="menus__item menus__item--1">
+                <article> 
+                    <img class="menus__note" src="asset/icons/note_musique.png" alt="Note">
+                    <h2 class="menus__title">La note enchantée</h2>
+                    <p class="menus__subtitle">MENU</p> 
+                </article>
+            </a>  
+                <!-- MENU 02 -->
+            <a href="chic_francaise.html" class="menus__item menus__item--2">
+                <article>          
+                    <h2 class="menus__title">Le chic à la française</h2>
+                    <p class="menus__subtitle">Menu</p> 
+                </article>
+            </a>
+                <!-- MENU 03 -->
+            <a href="delice_papilles.html" class="menus__item menus__item--3">
+                <article>
+                    <h2 class="menus__title">Le délice des papilles</h2>
+                    <p class="menus__subtitle">Menu</p>
+                </article>
+            </a>
+                <!-- MENU 04 -->
+            <a href="palette_gout.html" class="menus__item menus__item--4">
+                <article>
+                    <h2 class="menus__title">La palette du goût</h2>
+                    <p class="menus__subtitle">Menu</p>
+               </article>
+            </a>       
+        </main>
+
+        <!-- PROCHAINEMENT -->
+        <section class="bouton">
+            <div class="bouton__soon">
+                <div class="bouton__soon--box">
+                    <p class="bouton__loading">Prochainement &nbsp; 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </p>
+                </div>
+            </div>
         </section>
-        <section class="bouton">Prochainement</section>
+
+        <!-- FOOTER -->
         <footer>
-            <ul>
-                <li><a href="mentions_legales.html" class="mentions_legales">Mentions Légales</a></li>
-                <li><a href="mailto:contact@ohmyfood.com" class="email">Contactez-nous</a></li>
-            </ul>
+            <div class="shake__link">
+                <a href="mentions_legales.html" class="footer__link">Mentions légales</a>
+            </div>
+            <div class="shake__link">
+                <a href="mailto:contact@ohmyfood.com" class="footer__link">Contactez-nous</a>   
+            </div>
         </footer>
-</body>
+    </body>
+</html>

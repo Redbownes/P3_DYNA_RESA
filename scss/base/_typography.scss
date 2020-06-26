@@ -1,17 +1,18 @@
 // IMPORT FONTS DOSSIER
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Devonshire&family=Itim&family=Kalam&family=Kaushan+Script&family=Kurale&family=Nunito&family=Nunito+Sans:wght@800&family=Source+Serif+Pro&display=swap');
+
 @font-face {
-        font-family: "Devonshire";
-        src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
-       }
-@font-face {
-        font-family: "Devonshire";
-        src: url("../asset/police/Devonshire-Regular.ttf") format("truetype");
-       }
+        font-family: 'PeacerfulDay';
+        src: url(../asset/police/PeacerfulDay.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
 
 // DETAILS FONTS
 
         /*
+        font-family: 'Nunito Sans', sans-serif;
         font-family: 'Nunito', sans-serif;
         font-family: 'Devonshire', cursive;
         font-family: 'Itim', cursive;
@@ -22,31 +23,37 @@
         font-family: 'Kalam', cursive;
         */
 
-/* INDEX
-        HEADER / FOOTER */
+// INDEX //
+       // HEADER / FOOTER //
 
-$font_size_title: 2em;
-$font_link_footer: 'Nunito', sans-serif;
+$font_link_title: 'Nunito Sans', sans-serif;
+$font_link_principal: 'Nunito', sans-serif;
 
-/* PAGE MENU */
+// PAGE MENU //
     
 
-    /* MENU NOTE ENCHANTEE */
+    // MENU NOTE ENCHANTEE //
 
     $font_title_enchantee: 'Devonshire', cursive;
     $font_menu_enchantee: 'Itim', cursive;
 
-    /* MENU CHIC FRANCAISE */
+    // MENU CHIC FRANCAISE //
 
     $font_title_francaise: 'Kurale', serif;
     $font_menu_francaise: 'Source Serif Pro', serif;
 
-    /* MENU DELICE PAPILLES */
+    // MENU DELICE PAPILLES //
 
     $font_title_papilles: 'Dancing Script', cursive;
     $font_menu_papilles: 'PeacerfulDay';
 
-    /* MENU PALETTE GOUT */
+    // MENU PALETTE GOUT //
 
     $font_title_gout: 'Kaushan Script', cursive;
     $font_menu_gout: 'PeacerfulDay';
+
+// SIZE TITLE //
+
+$font_size_toptitle: 50px;
+$font_size_subtitle: 45px;
+$font_size_title: 32px;

@@ -9,4 +9,17 @@ footer {
     justify-content: space-between;
     background-color: $color-bg;
     height: 8%;
+
+    div {
+
+        padding: 0 30px;
+
+        .footer__link {
+            font-size: 18px;
+            font-weight: 700;
+            font-family: $font_link_principal;
+            text-decoration: none;
+            color: $color-titlesite;
+        }  
+    }
 }

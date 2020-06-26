@@ -1,7 +1,21 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: $color-bg;
     height: 90px;
+
+        h1 {
+            text-align: center;
+            margin: 10px 0 0 0;
+        }
+
+        .header__link {
+            text-decoration: none;
+            font-stretch: 50%;
+            font-size: $font_size_toptitle;
+            font-family: $font_link_title;
+            color: $color-titlesite;
+        }
 }
